@@ -93,8 +93,8 @@ export default function PognaruSubmission() {
       <div style={styles.container}>
         {submitted ? (
           <div className="fade-in" style={styles.completeBox}>
-            <div style={styles.completeTag}>원고가 도착했습니다</div>
-            <h2 style={styles.completeTitle}>포근나루에서<br />당신의 원고를 받았습니다</h2>
+            <div style={styles.completeTag}>원고를 보냈습니다</div>
+            <h2 style={styles.completeTitle}>포근나루에<br />당신의 원고를 부쳤습니다</h2>
             <div style={styles.completeDivider} />
             <p style={styles.completeBody}>
               원고는 순차적으로 읽히게 됩니다.<br />
@@ -103,7 +103,7 @@ export default function PognaruSubmission() {
             </p>
             <p style={styles.completeSub}>
               기다리시는 동안, 오늘의 첫 문장을 한 줄 더 써 보세요.<br />
-              당신의 다음 글을 우리는 이미 기다리고 있습니다.
+              당신의 글을 기다리고 있습니다.
             </p>
             <div style={styles.completeFooter}>
               <div style={styles.completeSignature}>— 포근나루의 첫 독자 드림</div>
