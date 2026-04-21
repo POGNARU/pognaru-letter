@@ -93,17 +93,19 @@ export default function PognaruSubmission() {
       <div style={styles.container}>
         {submitted ? (
           <div className="fade-in" style={styles.completeBox}>
-            <div style={styles.completeTag}>원고를 보냈습니다</div>
-            <h2 style={styles.completeTitle}>포근나루에<br />당신의 원고를 부쳤습니다</h2>
+            <div style={styles.completeTag}>원고가 도착했습니다</div>
+            <h2 style={styles.completeTitle}>포근나루에서<br />당신의 원고를 받았습니다</h2>
             <div style={styles.completeDivider} />
             <p style={styles.completeBody}>
-              원고는 순차적으로 읽히게 됩니다.<br />
-              편집자의 메모는 <strong>7일 이내</strong>,<br />
-              알려주신 이메일 주소로 보내드립니다.
+              편집자가 한 편씩 차례로 읽어나가고 있습니다.<br />
+              글을 꼼꼼히 읽은 뒤,<br />
+              <strong>7일 이내</strong> 알려주신 이메일로 메모를 보내드립니다.<br />
+              
             </p>
             <p style={styles.completeSub}>
               기다리시는 동안, 오늘의 첫 문장을 한 줄 더 써 보세요.<br />
-              당신의 글을 기다리고 있습니다.
+              당신의 다음 글을<br />
+              우리는 이미 기다리고 있습니다.
             </p>
             <div style={styles.completeFooter}>
               <div style={styles.completeSignature}>— 포근나루의 첫 독자 드림</div>
@@ -122,18 +124,23 @@ export default function PognaruSubmission() {
 
             <div style={styles.letterBox}>
               <div style={styles.letterMark}>— 작가님께 —</div>
-              <p style={styles.letterP}>포근나루는 글을 쓰고, 책을 읽고, 함께 머무는 자리입니다.</p>
               <p style={styles.letterP}>
-                사적인 기록이 누군가의 위로가 된다는 것을 믿기에,<br />
-                당신이 오래 품어온 글의 <strong>첫 독자</strong>가 되고 싶습니다.
+                끝까지 써놓고도 확신이 서지 않는 글이 있습니다.
               </p>
               <p style={styles.letterP}>
-                원고를 맡겨 주시면 포근나루의 편집자가 한 편 한 편 읽고,<br />
-                따뜻하지만 정직한 메모를 돌려드립니다.
+                포근나루는 그 글을 조용히, 끝까지 읽고
+                <br />
+                느낀 그대로를 메모로 남깁니다.
               </p>
+              <p style={styles.letterP}>
+                → 7일 이내, 이메일로 전달됩니다.
               <p style={styles.letterPSmall}>
-                · 에세이, 수필, 칼럼, 단편소설 등 산문 전반을 받습니다.<br />
-                · 편집자의 메모는 <strong>7일 이내</strong>, 순차적으로 회신됩니다.<br />
+                · 에세이, 수필, 칼럼, 단편소설 등 산문 전반을 받습니다.
+                <br />
+                · 편집자가 직접 읽고 메모를 작성하며, 필요에 따라 분석 도구를 참고합니다.
+                <br />
+                · 최종 메모는 사람의 판단과 읽힘을 바탕으로 전달됩니다.
+                <br />
                 · 지금은 무료로 운영되는 포근나루의 작은 서비스입니다.
               </p>
             </div>
