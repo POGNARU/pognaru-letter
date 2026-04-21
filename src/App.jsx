@@ -134,6 +134,7 @@ export default function PognaruSubmission() {
               </p>
               <p style={styles.letterP}>
                 → 7일 이내, 이메일로 전달됩니다.
+              </p>
               <p style={styles.letterPSmall}>
                 · 에세이, 수필, 칼럼, 단편소설 등 산문 전반을 받습니다.
                 <br />
