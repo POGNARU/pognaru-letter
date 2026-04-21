@@ -125,7 +125,8 @@ export default function PognaruSubmission() {
             <div style={styles.letterBox}>
               <div style={styles.letterMark}>— 작가님께 —</div>
               <p style={styles.letterP}>
-                끝까지 써놓고도 확신이 서지 않는 글이 있습니다.
+                끝까지 써놓고도<br />
+                확신이 서지 않는 글이 있습니다.
               </p>
               <p style={styles.letterP}>
                 포근나루는 그 글을 조용히, 끝까지 읽고
@@ -133,16 +134,16 @@ export default function PognaruSubmission() {
                 느낀 그대로를 메모로 남깁니다.
               </p>
               <p style={styles.letterP}>
-                → 7일 이내, 이메일로 전달됩니다.
+                7일 이내, 남겨주신 이메일로 전달됩니다.
               </p>
               <p style={styles.letterPSmall}>
-                · 에세이, 수필, 칼럼, 단편소설 등 산문 전반을 받습니다.
+                ✦ 에세이, 수필, 칼럼, 단편소설 등 산문 전반을 받습니다.
                 <br />
-                · 편집자가 직접 읽고 메모를 작성하며, 필요에 따라 분석 도구를 참고합니다.
+                ✦ 편집자가 직접 읽고 메모를 작성하며, 필요에 따라 분석 도구를 참고합니다.
                 <br />
-                · 최종 메모는 사람의 판단과 읽힘을 바탕으로 전달됩니다.
+                ✦ 최종 메모는 사람의 판단과 읽힘을 바탕으로 전달됩니다.
                 <br />
-                · 지금은 무료로 운영되는 포근나루의 작은 서비스입니다.
+                ✦ 지금은 무료로 운영되는 포근나루의 작은 서비스입니다.
               </p>
             </div>
 
