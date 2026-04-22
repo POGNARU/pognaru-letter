@@ -93,7 +93,7 @@ export default function PognaruSubmission() {
       <div style={styles.container}>
         {submitted ? (
           <div className="fade-in" style={styles.completeBox}>
-            <div style={styles.completeTag}>원고가 도착했습니다</div>
+            <div style={styles.completeTag}>원고가 나루터에 도착했습니다</div>
             <h2 style={styles.completeTitle}>포근나루에서<br />당신의 원고를 받았습니다</h2>
             <div style={styles.completeDivider} />
             <p style={styles.completeBody}>
@@ -118,7 +118,7 @@ export default function PognaruSubmission() {
           <>
             <header style={styles.header}>
               <div style={styles.tag}>포근나루 편집자 레터</div>
-              <h1 style={styles.title}>원고의 첫 자리</h1>
+              <h1 style={styles.title}>원고 띄우기</h1>
               <div style={styles.divider} />
             </header>
 
@@ -143,7 +143,7 @@ export default function PognaruSubmission() {
                 <br />
                 ✦ 최종 메모는 사람의 판단과 읽힘을 바탕으로 전달됩니다.
                 <br />
-                ✦ 지금은 무료로 운영되는 포근나루의 작은 서비스입니다.
+                ✦ 무료로 운영되는 포근나루의 작은 서비스입니다.
               </p>
             </div>
 
@@ -221,7 +221,7 @@ export default function PognaruSubmission() {
 const styles = {
   page: { minHeight: "100vh", background: "#FAF3EA", padding: "2.5rem 1rem 4rem", fontFamily: "'Gowun Batang', 'Nanum Myeongjo', serif", color: "#3C2415" },
   container: { maxWidth: "680px", margin: "0 auto" },
-  header: { textAlign: "center", marginBottom: "2rem" },
+  header: { textAlign: "center", marginBottom: "2.2rem" },
   tag: { display: "inline-block", fontSize: "0.72rem", letterSpacing: "0.3em", color: "#C8845A", fontFamily: "'Gowun Dodum', sans-serif", marginBottom: "1rem", padding: "0.3rem 1rem", border: "1px solid #E4D0B8", borderRadius: "2px" },
   title: { fontFamily: "'Nanum Myeongjo', serif", fontSize: "2.2rem", fontWeight: "700", color: "#3C2415", margin: "0 0 1.2rem", letterSpacing: "-0.02em" },
   divider: { width: "40px", height: "1px", background: "#C8845A", margin: "0 auto" },
