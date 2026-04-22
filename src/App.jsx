@@ -125,8 +125,8 @@ export default function PognaruSubmission() {
             <div style={styles.letterBox}>
               <div style={styles.letterMark}>— 작가님께 —</div>
               <p style={styles.letterP}>
-                끝까지 써놓고도<br />
-                확신이 서지 않는 글이 있습니다.
+                글을 다 쓴 후에도<br />
+                보이지 않는 것들이 있습니다.
               </p>
               <p style={styles.letterP}>
                 포근나루는 그 글을 조용히, 끝까지 읽고
