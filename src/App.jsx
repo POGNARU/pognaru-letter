@@ -223,7 +223,7 @@ const styles = {
   container: { maxWidth: "680px", margin: "0 auto" },
   header: { textAlign: "center", marginBottom: "2.2rem" },
   tag: { display: "inline-block", fontSize: "0.72rem", letterSpacing: "0.3em", color: "#C8845A", fontFamily: "'Gowun Dodum', sans-serif", marginBottom: "1rem", padding: "0.3rem 1rem", border: "1px solid #E4D0B8", borderRadius: "2px" },
-  title: { fontFamily: "'Nanum Myeongjo', serif", fontSize: "2.2rem", fontWeight: "700", color: "#3C2415", margin: "0 0 1.2rem", letterSpacing: "-0.02em" },
+  title: { fontFamily: "'Nanum Myeongjo', serif", fontSize: "2.2rem", fontWeight: "700", color: "#3C2415", margin: "0 0 1.2rem", letterSpacing: "0.1em" },
   divider: { width: "40px", height: "1px", background: "#C8845A", margin: "0 auto" },
   letterBox: { background: "#FFF8ED", border: "1px solid #E4D0B8", borderRadius: "3px", padding: "2.8rem 2.8rem 2.5rem", marginBottom: "2.5rem", boxShadow: "0 3px 14px rgba(200,132,90,0.08)" },
   letterMark: { fontFamily: "'Nanum Myeongjo', serif", fontSize: "1.1rem", color: "#A07A5A", textAlign: "center", marginBottom: "1.5rem", fontStyle: "italic", letterSpacing: "0.1em" },
