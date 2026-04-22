@@ -247,7 +247,7 @@ const styles = {
   footer: { marginTop: "4rem", textAlign: "center" },
   footerLine: { width: "30px", height: "1px", background: "#D4B896", margin: "0 auto 1.3rem" },
   footerBrand: { fontFamily: "'Nanum Myeongjo', serif", fontSize: "0.9rem", color: "#8A6A50", fontWeight: "700", letterSpacing: "0.05em", marginBottom: "0.6rem" },
-  footerInfo: { fontFamily: "'Gowun Batang', serif", fontSize: "0.8rem", color: "#A07A5A", lineHeight: "1.8", letterSpacing: "-0.005em" },
+  footerInfo: { fontFamily: "'Gowun Batang', serif", fontSize: "0.8rem", color: "#A07A5A", lineHeight: "1.8", letterSpacing: "0.1em" },
   completeBox: { background: "#FFF8ED", border: "1px solid #E4D0B8", borderRadius: "3px", padding: "3.5rem 2.5rem 2.8rem", textAlign: "center", boxShadow: "0 4px 20px rgba(200,132,90,0.1)", marginTop: "2rem" },
   completeTag: { display: "inline-block", fontSize: "0.72rem", letterSpacing: "0.3em", color: "#C8845A", fontFamily: "'Gowun Dodum', sans-serif", marginBottom: "1.5rem", padding: "0.3rem 1rem", border: "1px solid #C8845A", borderRadius: "2px" },
   completeTitle: { fontFamily: "'Nanum Myeongjo', serif", fontSize: "1.7rem", fontWeight: "700", color: "#3C2415", margin: "0 0 1.8rem", lineHeight: "1.5", letterSpacing: "-0.02em" },
